@@ -1,0 +1,19 @@
+button{
+border-left: 7px groove purple;
+border-right: 5px dotted blue;
+border-top: 5px solid red;
+border-bottom: 7px double green;
+width: 150px;
+height: 50px;
+}
+p{
+    background-color: grey;
+    width: 300px;
+    height: 50px;
+    text-align: left;
+    padding-top: 20px;
+}
+p:hover{
+    background-color: black;
+    color: white;
+}
