@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charget="UTHF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Property </title>
+<style>
+  .container {
+    position: relative; 
+    text-align: center; 
+    color: white;
+    background-image: url(./ảnh\ biệt\ thự.jpg);
+    background-size:contain;
+    display: flex;
+    width: 400px;
+    height: 500px;      
+  }
+  .text-overlay {
+    position: absolute;
+    top: 499px;
+    left: 0;
+    transform: translate (-20%, -20%);
+    background-color:rgba(255, 0, 0, 0.4);
+    background-size: auto;
+    line-height: 0.5;    
+  }
+  .tiêu-đề{
+    font-size:18px;
+    font-weight: bold;
+  }
+  .uta{
+    font-size:14px;
+    font-style:italic;
+  }
+  .link{
+    font-size: 16px;
+  }
+    </style>    
+</head>
+<body>
+<div class="container">
+  <img src="./ảnh biệt thự.jpg" width=400px height=600px alt="Ảnh nền">
+  <div class="text-overlay">
+    <h1 class="tiêu-đề"> Latest Thinking <h1>
+        <p class="uta"> Equip yourself with RikkeiSoft latest knowledge</p>
+        <a class="link" href="explore"> Explore</a>
+</div>
+</body>
+</body>
